@@ -34,7 +34,7 @@ var trainXor = [
 console.log(demoTrainer.train(trainXor, {
     rate: .2,
     //iterations: 20000,
-    error: .005//,
+    error: .005,
     //shuffle: true,
     //log: 1000//,
     //cost: Trainer.cost.CROSS_ENTROPY
