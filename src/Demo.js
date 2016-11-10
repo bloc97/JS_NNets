@@ -32,12 +32,12 @@ var trainXor = [
 //console.log(demoTrainer.XOR());
 
 console.log(demoTrainer.train(trainXor, {
-    rate: .2,
+    rate: 0.2,
     //iterations: 20000,
-    error: .005,
     //shuffle: true,
-    //log: 1000//,
-    //cost: Trainer.cost.CROSS_ENTROPY
+    //log: 1000,
+    //cost: Trainer.cost.CROSS_ENTROPY,
+    error: 0.005
 }));
 
 for (var i=0, j=trainXor.length; i<j; i++) {
