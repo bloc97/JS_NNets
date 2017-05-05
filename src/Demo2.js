@@ -65,7 +65,7 @@ console.log(inTrainer.train(trainIn, {
     //iterations: 20000,
     shuffle: true,
     log: 1000,
-    //cost: Trainer.cost.CROSS_ENTROPY,
+    cost: Trainer.cost.CROSS_ENTROPY,
     error: 0.0005
 }));
 
@@ -74,7 +74,7 @@ console.log(outTrainer.train(trainOut, {
     //iterations: 20000,
     shuffle: true,
     log: 1000,
-    //cost: Trainer.cost.CROSS_ENTROPY,
+    cost: Trainer.cost.CROSS_ENTROPY,
     error: 0.0005
 }));
 
